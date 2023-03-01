@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 165, 129);
+}
+
+.container {
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    top: 130px;
+    width: min-content;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+}
+
+#minhaturas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selecionado{
+    filter: contrast(40%);
+    border:  solid rgb(248, 210, 42)
+}
+

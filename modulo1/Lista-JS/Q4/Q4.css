@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 165, 129);
+}
+
+.carrinho{
+    background-color: #fff;
+    position: relative;
+    top: 50px;
+    width: 750px;
+    left: 8%;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+.cabeçalho p:hover{
+    transform: scale(1.003);
+    transition: all 0.1s ease-in;
+}
+
+
+.produto{
+    display: flex;
+    height: 200px;
+    margin: 5px 0px 5px 0px;
+}
+
+.produto p{
+    font-size: 10pt;
+}
+
+.produto section{
+    padding: 5px;
+}
+
+.total{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    position: absolute;
+    background-color: #fff;
+    top: 50px;
+    left: 70%;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+.total button{
+    background-color: rgb(251, 255, 17);
+    border-color: rgb(202, 202, 202);
+    height: 40px;
+    width: 100%;
+    border-radius: 9px;
+    margin: 10px 0px 10px 0px;
+    cursor: pointer;
+}
+
+.total p {
+    font-size: 20pt;
+}
+
+.desmarcado{
+    filter: opacity(60%);
+}
+
+.desmarcado select{
+    pointer-events: none;
+}

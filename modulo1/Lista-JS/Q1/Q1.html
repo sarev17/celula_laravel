@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Q1.css">
+    <title>Q1</title>
+</head>
+<body>
+    <div class="container">
+        <h1>PALETA</h1>
+        <div id="paleta">
+            <button id="a" onclick="colorSelector(this)" style="background-color: red;"></button>
+            <button id="b" onclick="colorSelector(this)" style="background-color: yellow;"></button>
+            <button id="c" onclick="colorSelector(this)" style="background-color: orange;"></button>
+            <button id="d" onclick="colorSelector(this)" style="background-color: green;"></button>
+            <button id="e" onclick="colorSelector(this)" style="background-color: blue;"></button>
+            <button id="f" onclick="colorSelector(this)" style="background-color: violet;"></button>
+        </div>
+        <button id="g"></button>
+    </div>
+</body>
+<script>
+    let botao = document.getElementById('g');
+    function colorSelector(get) {
+        g.style.backgroundColor = get.style.backgroundColor;
+    }
+</script>
+</html>
