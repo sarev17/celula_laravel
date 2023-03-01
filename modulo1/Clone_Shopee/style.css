@@ -1,0 +1,341 @@
+/* STYLE BODY */
+body{
+    background-color: #f5f5f5;
+}
+/* STYLE HEADER */
+
+.cabeçalho{
+    background-image: linear-gradient(to bottom, #f63f2d, #f8492e, #fb532f, #fd5c31, #ff6433);
+    top: 0;
+    left: 0;
+    right: 0;
+    position:fixed;
+    z-index: 4;
+}
+
+.barra{
+    display: flex;
+    align-items:stretch;
+    justify-content: space-between;
+    height: 2.5rem;
+    width: 850px;
+    box-sizing: border-box;
+    padding: 0.1875rem;
+    border-radius: 2px;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+#caixa_de_pesquisa{
+    width: 100%;
+}
+
+.fundo_barra{
+    display: flex;
+    -webkit-box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.41);
+    -moz-box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.41);
+    box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.41);
+}
+
+.logo{
+    display: flex;
+    position: relative;
+    margin-left: 80px;
+}
+
+.center{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    height: 65px;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+i.fa-solid.fa-cart-shopping {
+    font-size: 25px;
+}
+
+i.fa-brands.fa-twitter,
+i.fa-brands.fa-instagram,
+i.fa-brands.fa-tiktok {
+    font-size: 13px;
+}
+
+i.fa-regular.fa-bell,
+i.fa-regular.fa-circle-question {
+    font-size: 15px;
+}
+
+i.fa-solid.fa-globe {
+    color: rgba(1, 1, 1, 1);
+    font-size: 15px;
+}
+
+#carrinho {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+#img,
+.fa-solid {
+    filter: grayscale(100%) brightness(0) invert(1);
+}
+
+#botao {
+    background-color: #FB6445;
+    border: 0ch;
+    width: 60px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#botao2 {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0ch;
+    cursor: pointer;
+}
+
+#caixa_de_pesquisa {
+    padding-left: 8px;
+    border: 0ch;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+#links_left > a, #links_left, #links_rigth, #links_rigth > a{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    color:#fff;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 13px;
+}
+
+#links_left{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+#links_rigth{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: 70px;
+}
+
+#cadastrar {
+    padding-left: 18px;
+}
+
+#links_bottom>a {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 12px;
+}
+
+#links_bottom {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    padding-top: 8px;
+}
+
+/* STYLE MAIN */
+
+#corpo{
+    background-color: #fff;
+    display: flex;
+    position: absolute;
+    top: 118px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 350px;
+    justify-content: center;
+    padding-top: 40px;
+    z-index: 3;
+}
+#promoções{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: min-content;
+    height: 235px;
+}
+
+#img1{
+    display: flex;
+    width: 796.67px;
+    height: 235.02px;
+    border-radius: 0.2rem;
+    overflow: hidden;
+    grid-area: span 2;
+    padding-right: 0.3rem;
+}
+
+#img1 img{
+    width: 100%;
+}
+
+#img2 {
+    display: flex;
+    height: 115px;
+    width: 398.33px;
+    border-radius: 0.2rem;
+    overflow: hidden;
+}
+#img3{
+    display: flex;
+    height: 115px;
+    width: 398.33px;
+    border-radius: 0.2rem;
+    overflow: hidden;
+}
+
+#img2 img, #img3 img {
+    width: 100%;
+}
+
+#menu{
+    top: 300px;
+    display: grid;
+    position: absolute;
+    z-index: 2;
+}
+.icones{
+    display: flex;
+    height: max-content;
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.icones > button{
+    height: 50px;
+    width: 50px;
+    align-items: center;
+}
+
+.ic{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 40%;
+    cursor: pointer;
+}
+.ic:hover{
+    transform: scale(1.05);
+    transition: all 0s;
+}
+
+#rótulo{
+    display: flex;
+    width: 1143px;
+    height: 25px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#rótulo > p{
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 10pt;
+}
+
+i.fa-brands.fa-bitcoin, i.fas.fa-gamepad, i.fas.fa-truck, i.fas.fa-ticket, i.fas.fa-shop,
+i.fas.fa-microchip, i.fas.fa-face-grin-hearts, i.fas.fa-video, i.fas.fa-circle-dollar-to-slot{
+    font-size: 30px;
+}
+#shopee_oficial{
+    width: 35px;
+}
+
+#banner{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 22rem;
+    z-index: 1;
+    height: 115px;
+}
+
+#destaques{
+    top: 600px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: auto;
+    grid-row-gap: 15px;
+    grid-column-gap: 20px;
+    padding-bottom: 50px;
+}
+
+.img_dest{
+    width: 100%;
+    border: 0;
+}
+
+.desc{
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 9pt
+}
+
+.preço{
+    color:#ff6433;
+    margin-left: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 15px;
+    padding-bottom: 15px;
+}
+
+.estoque{
+    font-family: 'Roboto Flex', sans-serif;
+    color: rgb(116, 116, 116);
+    font-size: 10pt;
+    height: 10px;
+    padding-bottom: 15px;
+}
+
+.produto{
+    display: grid;
+    grid-template-rows: max-content 40px 1fr;
+    justify-content: center;
+    width: 190px;
+    height: 282px;
+    background-color: #fff;
+    border: 0;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.preço_estoque{
+    align-items: flex-end;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#title_dest{
+    display: flex;
+    position: absolute;
+    width: 1280px;
+    top: 520px;
+    background-color: #fff;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+#title_dest div{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+}
