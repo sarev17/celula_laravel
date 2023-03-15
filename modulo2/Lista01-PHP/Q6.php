@@ -20,7 +20,7 @@
         $valor = $_GET['valor'];
 
         echo nl2br("NÚMEROS PRIMOS ANTES DESSE VALOR:\n");
-        for ($i = 2; $i < $valor; $i++) {
+        for ($i = 2; $i <= $valor; $i++) {
             $cont = 0;
             for ($j = $i; $j > 1; $j--) {
                 if ($i % $j == 0) {
