@@ -20,7 +20,6 @@
         $secFibo = array();
         echo nl2br("SEQUÊNCIA DE FIBONACCI ATÉ ESSE VALOR:\n\n");
 
-
         for ($i = 0; $i < $valor; $i++) {
             if ($i < 2) {
                 $secFibo[$i] = 1;
