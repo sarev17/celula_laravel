@@ -2,7 +2,7 @@
 
 $email = readline("Digite seu email: ");
 
-$regexEmail = "/(@gmail.com|@hotmail.com|@yahoo.com)$/i";
+$regexEmail = "/^[a-z0-9.]+@(gmail.com|hotmail.com|yahoo.com)$/i";
 
 if (preg_match($regexEmail, $email)) {
     echo ("E-mail aceito!");
