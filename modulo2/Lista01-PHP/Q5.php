@@ -33,13 +33,13 @@
                 echo nl2br("\nSoma = " . ($v1 + $v2));
                 break;
             case 1:
-                echo nl2br("\nSoma = " . ($v1 - $v2));
+                echo nl2br("\nSubtração = " . ($v1 - $v2));
                 break;
             case 2:
-                echo nl2br("\nSoma = " . ($v1 * $v2));
+                echo nl2br("\nMultipliacação = " . ($v1 * $v2));
                 break;
             case 3:
-                echo nl2br("\nSoma = " . ($v1 / $v2));
+                echo nl2br("\nDivisão = " . ($v1 / $v2));
                 break;
 
             default:
