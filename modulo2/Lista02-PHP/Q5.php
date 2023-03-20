@@ -29,6 +29,11 @@ $cidades = array(
 );
 
 $busca = readline("Busque uma cidade: ");
+
+$busca = strtolower($busca);
+
+$busca = ucfirst($busca);
+
 $resultado = array_search($busca, $cidades);
 
 if ($resultado != false) {
