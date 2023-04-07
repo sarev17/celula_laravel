@@ -13,4 +13,5 @@
     $cidades = json_encode($cidades);
 
     echo $cidades;
+    
 ?>
